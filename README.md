@@ -52,7 +52,7 @@ Currently supports prediction for **Diabetes, Heart Disease, Parkinson's Disease
 ## 📸 Demo Screenshot
 > Replace with your app screenshot after deployment  
 
-![App Demo](Diseases_Prediction_System - sample ss)
+![App Demo](Diseases_Prediction_System - sample ss.png)
 
 ## 🔮 Future Improvements
 - Add more diseases with available datasets.  
