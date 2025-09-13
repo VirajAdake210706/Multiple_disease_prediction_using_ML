@@ -19,22 +19,22 @@ st.set_page_config(
 
 # --------------------- Load Models ---------------------
 diabetes_model = pickle.load(open(
-    'C:/Users/Viraj/OneDrive/Desktop/Multiple Disease Prediction System/saved models/diabetes_model.sav', 'rb'))
+    'diabetes_model.sav', 'rb'))
 
 heart_model = pickle.load(open(
-    'C:/Users/Viraj/OneDrive/Desktop/Multiple Disease Prediction System/saved models/heartdisease_model.sav', 'rb'))
+    'heartdisease_model.sav', 'rb'))
 
 parkinsons_model = pickle.load(open(
-    'C:/Users/Viraj/OneDrive/Desktop/Multiple Disease Prediction System/saved models/parkinsons_model.sav', 'rb'))
+    'parkinsons_model.sav', 'rb'))
 
 parkinsons_scaler = pickle.load(open(
-    'C:/Users/Viraj/OneDrive/Desktop/Multiple Disease Prediction System/saved models/parkinsons_scaler.sav', 'rb'))
+    'parkinsons_scaler.sav', 'rb'))
 
 liver_model = pickle.load(open(
-    'C:/Users/Viraj/OneDrive/Desktop/Multiple Disease Prediction System/saved models/liver_model.sav', 'rb'))
+    'liver_model.sav', 'rb'))
 
 liver_scaler = pickle.load(open(
-    'C:/Users/Viraj/OneDrive/Desktop/Multiple Disease Prediction System/saved models/liver_scaler.sav', 'rb'))
+    'liver_scaler.sav', 'rb'))
 
 # --------------------- Sidebar ---------------------
 with st.sidebar:
@@ -368,3 +368,4 @@ if selected == 'Liver Disease Prediction':
         except Exception as e:
             st.warning(f"⚠️ Error: {e}")
        
+
